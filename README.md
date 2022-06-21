@@ -34,7 +34,7 @@ Computer Vision: Python and OpenCV
 
 ## Installation & Setup
 
-Use the package manager [npm](https://www.npmjs.com/) to install GoPark.
+Use the package manager [npm](https://www.npmjs.com/) and [pip](https://pypi.org/project/pip/) to install GoPark.
 
 #### GoPark-Backend
 
@@ -51,6 +51,9 @@ ionic serve
 #### GoPark-CV
 
 ```bash
+pip install opencv-python
+pip install cvzone
+pip install pymongo
 python main.py
 ```
 #### GoPark-Admin
